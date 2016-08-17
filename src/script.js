@@ -1,7 +1,7 @@
 /* global d3, _ */
 
 (function() {
-	var margin = {
+  var margin = {
 			top: 30,
 			right: 20,
 			bottom: 100,
@@ -84,11 +84,11 @@
 	var barsGroup = svg.append('g')
 		.attr('class', 'volume')
 		.attr('clip-path', 'url(#clip)')
-		.attr('transform', 'translate(' + margin.left + ',' + (margin.top + 60 + 20) + ')');
+		.attr('transform', 'translate(' + margin.left + ',' + (margin.top) + ')');
 
 	var context = svg.append('g')
 		.attr('class', 'context')
-		.attr('transform', 'translate(' + margin2.left + ',' + (margin2.top + 60) + ')');
+		.attr('transform', 'translate(' + margin2.left + ',' + (margin2.top) + ')');
 
 	var legend = svg.append('g')
 		.attr('class', 'chart__legend')

@@ -95,3 +95,7 @@ svg {
 .y.axis path {
   display: none;
 }
+
+.volume {
+  opacity: .5
+}
